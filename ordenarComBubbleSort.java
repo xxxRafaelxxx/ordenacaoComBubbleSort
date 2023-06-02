@@ -56,9 +56,9 @@ public class ordenarComBubbleSort extends JFrame {
     }
 
     private void bubbleSort(int[] numbers) {
-        int n = numbers.length;
-        for (int index = 0; index < n - 1; index++) {
-            for (int j = 0; j < n - index - 1; j++) {
+        int numeros = numbers.length;
+        for (int index = 0; index < numeros - 1; index++) {
+            for (int j = 0; j < numeros - index - 1; j++) {
                 if (numbers[j] > numbers[j + 1]) {
                     int temp = numbers[j];
                     numbers[j] = numbers[j + 1];
